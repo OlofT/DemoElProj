@@ -1,8 +1,6 @@
 # DemoElProj
 
-Task Description
- 
-Development time: 2-4 hours
+## Task Description
  
 Create a small app that lists the Oven retrieved from the provided json file
  
@@ -16,11 +14,6 @@ Create a small app that lists the Oven retrieved from the provided json file
 - Tab bar doesn’t have to be implemented
  
 The screens should be developed using SwiftUI.
-
-The app should be entirely written by yourself; the contents of your project will be discussed with you personally on the next hiring stage. Here is a check list down below to help track your progress for this technical task implementation.
- 
-If you have any doubts or uncertainties about the task description, please, send your feedback via the following email: oskar.jonsson@electrolux.com
-Guidelines
  
 General:
 
