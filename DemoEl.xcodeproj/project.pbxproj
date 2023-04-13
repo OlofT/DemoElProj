@@ -15,6 +15,10 @@
 		D5415D4B29E6FF6A001A3D0B /* DemoElUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D4A29E6FF6A001A3D0B /* DemoElUITests.swift */; };
 		D5415D4D29E6FF6A001A3D0B /* DemoElUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D4C29E6FF6A001A3D0B /* DemoElUITestsLaunchTests.swift */; };
 		D5415D6029E702C5001A3D0B /* Oven.json in Resources */ = {isa = PBXBuildFile; fileRef = D5415D5F29E702C5001A3D0B /* Oven.json */; };
+		D5415D6329E70A49001A3D0B /* Appliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D6229E70A49001A3D0B /* Appliance.swift */; };
+		D5415D6829E7E3DC001A3D0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D6729E7E3DC001A3D0B /* DataManager.swift */; };
+		D5415D6A29E7ED56001A3D0B /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D6929E7ED56001A3D0B /* DataFetcher.swift */; };
+		D5415D6C29E7EE4A001A3D0B /* LocalMockFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5415D6B29E7EE4A001A3D0B /* LocalMockFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D5415D4C29E6FF6A001A3D0B /* DemoElUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoElUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D5415D5C29E70288001A3D0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5415D5F29E702C5001A3D0B /* Oven.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Oven.json; sourceTree = "<group>"; };
+		D5415D6229E70A49001A3D0B /* Appliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appliance.swift; sourceTree = "<group>"; };
+		D5415D6729E7E3DC001A3D0B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D5415D6929E7ED56001A3D0B /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		D5415D6B29E7EE4A001A3D0B /* LocalMockFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMockFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,9 @@
 		D5415D5A29E70145001A3D0B /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D5415D6729E7E3DC001A3D0B /* DataManager.swift */,
+				D5415D6929E7ED56001A3D0B /* DataFetcher.swift */,
+				D5415D6B29E7EE4A001A3D0B /* LocalMockFetcher.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -144,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D5415D5F29E702C5001A3D0B /* Oven.json */,
+				D5415D6229E70A49001A3D0B /* Appliance.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -288,7 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5415D3229E6FF69001A3D0B /* HomeView.swift in Sources */,
+				D5415D6C29E7EE4A001A3D0B /* LocalMockFetcher.swift in Sources */,
 				D5415D3029E6FF69001A3D0B /* DemoElApp.swift in Sources */,
+				D5415D6329E70A49001A3D0B /* Appliance.swift in Sources */,
+				D5415D6A29E7ED56001A3D0B /* DataFetcher.swift in Sources */,
+				D5415D6829E7E3DC001A3D0B /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
